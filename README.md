@@ -14,5 +14,5 @@ To launch the program, run `main.py`
  * `done`       Completes the molecule and generates orbital energies
 
 ## Notes
-* Energies are expressed in the form 'a + x b' where 'a' = α, the energy of an atomic orbital and 'b' = β, the energy of interaction between adjacent atomic orbitals. 
+* Energies are expressed in the form `a + x b` where `a` = α, the energy of an atomic orbital and `b` = β, the energy of interaction between adjacent atomic orbitals. 
 * Due to inaccuracies introduced by the numerical methods used in this program, energies are considered to be degenerate if they are equal to 12 decimal places. This may lead to non-degenerate orbitals being considered degenerate in the case of complex systems with multiple energy levels that lie close together in value. 
